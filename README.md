@@ -1,18 +1,20 @@
 ## Note
-This project is the python implementation of tls-sig-api-v2. Previous asymmetric keys cannot use APIs of this version. To enable them to use APIs of this version,[see here](https://github.com/tencentcloud/tls-sig-api-python)。
+This Python project implements Tencent-RTC's UserSig authentication, providing a secure server-side method for generating signatures to protect the keys from leakage.
 
-## integration
+![](https://cloudcache.intl.tencent-cloud.com/cms/backend-cms/12569f72920411ef810152540055f650.png)
+
+## Integration
 It can be integrated using pip or source code.
 
-### pip
+#### pip
 ```shell
 pip install tls-sig-api-v2
 ```
 
-### source code
+#### source code
 Just download the file `TLSSigAPIv2.py` to the local.
 
-## use
+## Usage
 
 ``` python
 import TLSSigAPIv2
